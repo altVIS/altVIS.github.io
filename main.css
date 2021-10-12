@@ -56,7 +56,16 @@ a {
 
 td {
 	padding: 10px;
-	align: top;
+}
+
+div#schedule {
+	text-align: center;
+}
+
+div#schedule ul {
+	list-style-type: none;
+	padding: 10px 0;
+	margin: 0px
 }
 
 .headshot {
