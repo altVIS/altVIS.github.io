@@ -84,3 +84,31 @@ td img {
 	width: 90%;
 	text-align: center;
 }
+
+#registration {
+	padding: 20px;
+	text-align: center;
+	background-color: mediumslateblue;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 10px;
+	margin: 20px auto;
+	display: block;
+	font-family: 'Nunito', "Helvetica Neue", sans-serif;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 250ms ease-in-out,
+	transform 150ms ease;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-decoration: none;
+	border: none;
+}
+
+#registration a {
+	text-decoration: none;
+}
+
+#registration a:hover {
+	text-decoration: none;
+}
