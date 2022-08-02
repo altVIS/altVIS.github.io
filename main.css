@@ -112,3 +112,15 @@ td img {
 #registration a:hover {
 	text-decoration: none;
 }
+
+.greyed-out {
+	color: #999;
+}
+
+.greyed-out:hover {
+	color: #000;
+}
+
+.feature p {
+	font-size: 1.2em
+}
