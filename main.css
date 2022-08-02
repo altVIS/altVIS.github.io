@@ -124,3 +124,13 @@ td img {
 .feature p {
 	font-size: 1.2em
 }
+
+.big-bold {
+	font-size: 1.6em;
+	font-weight: bold;
+	color: rebeccapurple;
+	text-align: center;
+	padding: 10px 20px 20px 20px;
+	max-width: 600px;
+	margin: 0 auto;
+}
