@@ -54,6 +54,10 @@ a {
 	font-size: 1.2em;
 }
 
+table {
+	width: 100%;
+}
+
 td {
 	padding: 10px;
 }
@@ -133,4 +137,30 @@ td img {
 	padding: 10px 20px 20px 20px;
 	max-width: 600px;
 	margin: 0 auto;
+}
+
+.time {
+	background-color: gainsboro;
+}
+
+.session {
+	font-weight: bold;
+	background-color: aquamarine;
+}
+
+.structural {
+	background-color:gainsboro;
+}
+
+tr {
+	border-bottom: 1px solid lightgray;
+}
+
+.jumpto {
+	color:darkslateblue;
+}
+
+.jumpto:hover {
+	color:blueviolet;
+	text-decoration: none;
 }
