@@ -21,7 +21,7 @@ section {
 #logo {
 	width: 200px;
 	height: 200px;
-	background-image: url(https://i.imgur.com/TnrB3Eu.png);
+	background-image: url(./img/alt-vis-background.png);
 	background-size: cover;
 	background-position: center;
 	/* Center the image */
@@ -90,6 +90,8 @@ div#schedule ul {
 
 td img {
 	width: 100%;
+	min-width: 90px;
+	min-height: 90px;
 }
 
 .bio {
@@ -178,4 +180,11 @@ tr {
 
 .award::before {
 	content: '🏆'
+}
+
+@media screen and (max-width: 600px) {
+	td img {
+		display: none;
+		;
+	}
 }
